@@ -1,0 +1,13 @@
+import os
+os.system("Clear || clear")
+
+valor1 = int(input("Digite o primeiro valor: "))
+valor2 = int(input("Digite o segundo valor: "))
+
+print("""
+(+) para soma
+(-) para subtração
+(*) para multiplicacao
+(/) para divisao
+      """)
+
