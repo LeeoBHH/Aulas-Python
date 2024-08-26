@@ -1,9 +1,6 @@
 import os
 os.system("Clear || clear")
 
-valor1 = int(input("Digite o primeiro valor: "))
-valor2 = int(input("Digite o segundo valor: "))
-
 print("""
 (+) para soma
 (-) para subtração
@@ -11,3 +8,19 @@ print("""
 (/) para divisao
       """)
 
+valor1 = int(input("Digite o primeiro valor: "))
+valor2 = int(input("Digite o segundo valor: "))
+opcao = input("Escolha a operação: ")
+
+match(opcao):
+    case "+":
+        resultado = valor1 + valor2
+    case "-":
+        resultado = valor1 - valor2
+    case "*":
+        resultado = valor1 * valor2
+    case "/":
+        resultado = valor1 * valor2
+
+
+print(f"O resultado dos valores é igual a: {resultado}" )
