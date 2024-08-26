@@ -15,4 +15,8 @@ os.system("cls || clear")
 numero = int(input(f"Digite um número para a tabuada: "))
 
 
+<<<<<<< HEAD:Laço de repetição/1. Exemplo.py
+=======
+
+>>>>>>> e0169bf (Python):Laço de repetição.py/1. Exemplo.py
     
