@@ -14,5 +14,5 @@ os.system("cls || clear")
 
 numero = int(input(f"Digite um número para a tabuada: "{numero}))
 
-print(f"{numero} x {i} = {numero*i}")
+
     
