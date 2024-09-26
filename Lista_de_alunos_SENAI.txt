@@ -1,0 +1,8 @@
+leonardo, 15
+lope, 17
+leonardo, 17
+lope, 14
+leonardo, 16
+lope, 17
+leonardo, 16
+lope, 15
